@@ -80,3 +80,112 @@ section {
   @extend .btn-primary;
   @extend .btn-xs;
 }
+
+
+// custom
+
+.home_bg {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('couple_turn.jpeg');
+  min-height: 595px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.edition_2015_bg {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('team_back.jpeg');
+  min-height: 430px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.hotel_bg {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('hotel_image.jpeg');
+  min-height: 430px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.teachers_bg {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('dancing_feet.jpeg');
+  min-height: 430px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.workshops_bg {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('dancing_room.jpeg');
+  min-height: 430px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.planning_bg {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('planning.jpeg');
+  min-height: 430px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.pass_bg {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #f8f8f8; 
+  background-image: image-url('silhouette.jpeg');
+  min-height: 430px;
+  background-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  opacity: 0.09;
+}
