@@ -23,5 +23,10 @@
 <li><%= link_to "Hotel", hotel_path %></li>
 <li><%= link_to "Passes", pass_path %></li>
 <li><%= link_to "Edition 2015", edition_2015_path %></li>
-<li><button type="button" class="btn btn-primary navbar-btn">Inscriptions</button></li>
+<li><%= button_to "Inscriptions", root_path(:anchor => 'subscribe'), class: "btn btn-primary navbar-btn", :method => :get %></li>
+<!-- <li><button type="button" class="btn btn-primary navbar-btn" id="#subscribe">Inscriptions</button></li> -->
+
+
+
+
 

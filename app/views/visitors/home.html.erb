@@ -1,8 +1,15 @@
 <div class="home_bg">
 	18 hours Social Dancing
 	<br> WCS ONLY
-	<br><%= link_to "Inscriptions", "#", class: "btn btn-lg btn-primary" %>
+	<br>
+	
+
+	<div class="col-md-4 col-md-offset-4 subscribe_btn"><%= link_to "Inscriptions", "#subscribe", class: "btn btn-lg btn-primary btn-block" %></div>
 </div>
+
+
+
+
 
 <div class="container">
 
@@ -23,6 +30,17 @@ Situation en centre-ville, proximité de restaurants et commerce, la Grand Place
 
 <p class="lead">Vous pouvez à tous moments nous contacter par e-mail afin de d'obtenir plus d'informations. 
 info@swingplicitybrussels.be</p>
+<div id="subscribe">
+	<h2>Inscrivez-vous à notre mailing list
+		<br><small>Attention : tous les champs sont requis, sauf autre indication</small>
+	</h2>
+
+	<div class="panel panel-primary">
+		<div class="panel-body">
+			<%= render "mailchimp_form" %>
+		</div>
+	</div>
+</div>
 
 </div>
 
