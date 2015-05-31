@@ -10,35 +10,36 @@
 
 <div class="form-group">
 	<h3 class="page-header">A propos de vous</h3>
-<div class="row">
-	<div class="col-md-4">
-		<input type="text" value="" name="LNAME" class="required form-control input-lg" id="mce-LNAME" placeholder="Nom">
+	<div class="row">
+		<div class="col-md-4">
+			<input type="text" value="" name="LNAME" class="required form-control input-lg" id="mce-LNAME" placeholder="Nom">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" value="" name="FNAME" class="required form-control input-lg" id="mce-FNAME" placeholder="Prénom">
+		</div>
+
+		<div class="col-md-4">
+			<input type="email" value="" name="EMAIL" class="required email form-control input-lg" id="mce-EMAIL" placeholder="email">
+		</div>
 	</div>
 
-	<div class="col-md-4">
-		<input type="text" value="" name="FNAME" class="required form-control input-lg" id="mce-FNAME" placeholder="Prénom">
-	</div>
+	<p>
+	<div class="row">
 
-	<div class="col-md-4">
-		<input type="email" value="" name="EMAIL" class="required email form-control input-lg" id="mce-EMAIL" placeholder="email">
+		<div class="col-md-2">Votre date anniversaire :</div>
+		<div class="col-md-2">
+			<input class="birthday required form-control" type="text" pattern="[0-9]*" value="" placeholder="jour (jj)" name="MMERGE4[day]" id="mce-MMERGE4-day">	
+		</div>
+		<div class="col-md-2">
+			<input class="birthday required form-control" type="text" pattern="[0-9]*" value="" placeholder="mois (mm)" name="MMERGE4[month]" id="mce-MMERGE4-month"> 
+		</div>
+		
+
 	</div>
+	</p>
 </div>
 
-<p>
-<div class="row">
-
-	<div class="col-md-2">Votre date anniversaire :</div>
-	<div class="col-md-2">
-		<input class="birthday required form-control" type="text" pattern="[0-9]*" value="" placeholder="jour (jj)" name="MMERGE4[day]" id="mce-MMERGE4-day">	
-	</div>
-	<div class="col-md-2">
-		<input class="birthday required form-control" type="text" pattern="[0-9]*" value="" placeholder="mois (mm)" name="MMERGE4[month]" id="mce-MMERGE4-month"> 
-	</div>
-	
-
-</div>
-</p>
-</div>
 <div class="form-group">
 	<h3 class="page-header">Pour vous contacter</h3>
 	<div class="row">
@@ -356,8 +357,6 @@
 			<input type="text" value="" name="MMERGE9" class="form-control" id="mce-MMERGE9" placeholder="Nom de votre partenaire">
 		</div>
 
-
-
 	</div>
 </div>
 
@@ -367,12 +366,14 @@
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;">
     	<input type="text" name="b_94cbf6121217e9e19bab54fef_a146de1d17" tabindex="-1" value=""></div>
-    <hr>
-    <div class="clear">
-    	<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg btn-block pull-right">
-    </div>
+    
+	    <div class="clear">
+	    	<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg btn-block pull-right">
+	    </div>
     </div>
 </form>
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[2]='LNAME';ftypes[2]='text';fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='phone';fnames[4]='MMERGE4';ftypes[4]='birthday';fnames[5]='MMERGE5';ftypes[5]='dropdown';fnames[6]='MMERGE6';ftypes[6]='radio';fnames[7]='MMERGE7';ftypes[7]='radio';fnames[8]='MMERGE8';ftypes[8]='dropdown';fnames[9]='MMERGE9';ftypes[9]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
+

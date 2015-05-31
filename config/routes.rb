@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get 'teachers' => 'visitors#teachers'
   get 'edition_2015' => 'visitors#edition_2015'
   get 'hotel' => 'visitors#hotel'
+  get 'test_mailchimp' => 'visitors#test_mailchimp'
 
 end

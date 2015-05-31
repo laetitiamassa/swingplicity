@@ -21,4 +21,7 @@ class VisitorsController < ApplicationController
 	def edition_2015
 	end
 
+	def test_mailchimp
+	end
+
 end

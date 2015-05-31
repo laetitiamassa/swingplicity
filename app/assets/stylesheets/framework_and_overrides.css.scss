@@ -16,6 +16,26 @@ img {
   @extend .img-responsive;
   margin: 0 auto;
   }
+
+// text responsive
+@media screen and (max-width: 480px) {
+  .homy {font-size: 0.5em;}
+}
+
+h1 {
+  color: #a21354;
+}
+
+h2 {
+  color: #a21354;
+}
+
+h3 {
+  color: #a21354;
+}
+
+
+
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
