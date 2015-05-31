@@ -23,6 +23,15 @@
 <li><%= link_to "Hotel", hotel_path %></li>
 <li><%= link_to "Passes", pass_path %></li>
 <li><%= link_to "Edition 2015", edition_2015_path %></li>
+<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <%= t("language") %> <span class="caret"></span>
+        </a>
+	<ul class="dropdown-menu">
+            <li><%= link_to t("FR"), url_for(:locale => 'fr') %></li>
+            <li><%= link_to t("EN"), url_for(:locale => 'en') %></li>
+          </ul>
+      </li>
 <li><%= button_to "Inscriptions", root_path(:anchor => 'subscribe'), class: "btn btn-primary navbar-btn", :method => :get %></li>
 <!-- <li><button type="button" class="btn btn-primary navbar-btn" id="#subscribe">Inscriptions</button></li> -->
 
