@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'workshops' => 'visitors#workshops'
   get 'planning' => 'visitors#planning'
-  get 'pass' => 'visitors#pass'
+  get 'prices' => 'visitors#pass'
   get 'teachers' => 'visitors#teachers'
   get 'edition_2015' => 'visitors#edition_2015'
   get 'hotel' => 'visitors#hotel'
