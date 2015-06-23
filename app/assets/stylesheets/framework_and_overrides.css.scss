@@ -257,6 +257,14 @@ height: 100%;
   border-radius: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+.swingcolor {
+  color: #5A23A3;
 }
 
 /* pricing table */
