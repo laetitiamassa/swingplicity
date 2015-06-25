@@ -1,13 +1,13 @@
 <div class="edition_2015_bg">
-	<div class="homy">2015 en images</div>
+	<div class="homy"><%= t("edition_2015.title") %></div>
 </div>
 <div class="container">
-<h2>Photos</h2>
-<p>Toutes les photos de l'événement sont disponibles <%= link_to "ici", "https://www.flickr.com/gp/franom/PB14T7/", :target => "_blank" %>.</p> 
+<h2><%= t("edition_2015.pictures") %></h2>
+<p><%= t("edition_2015.pics_text_1") %> <%= link_to t("edition_2015.here"), "https://www.flickr.com/gp/franom/PB14T7/", :target => "_blank" %>.</p> 
 
-<p>Si vous voulez repartager une photo, merci de respecter le copyright et de le garder sur la photo. Si vous avez un doute pour l'utilisation d'une photo, n'hésitez pas à nous demander.</p>
+<p><%= t("edition_2015.pics_text_2") %></p>
 
-<h2>Vidéo</h2>
+<h2><%= t("edition_2015.videos") %></h2>
 
 <br>
 <div class="row">

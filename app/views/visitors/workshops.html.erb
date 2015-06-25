@@ -1,5 +1,5 @@
 <div class="workshops_bg">
-		<div class="homy">Workshops</div>
+		<div class="homy"><%= t("workshops.title") %></div>
 </div>
 
 <div class="container">
@@ -17,10 +17,10 @@
   	<ul class="nav nav-pills" role="tablist">
     <li role="presentation" class="active">
     	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-    		Planning
+    		<%= t("workshops.planning") %>
     	</a>
     </li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Niveaux</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><%= t("workshops.levels") %></a></li>
     
     
   </ul>
@@ -31,9 +31,9 @@
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="home">
 <div class="row">
-	<h3>Planning
+	<h3><%= t("workshops.planning") %>
 		<small>
-				<br>Veuillez trouver ci-dessous un planning provisoire du Swingplicity 2016. Attention, nous nous réservons le droit de faire toute modification nécessaire.
+				<br><%= t("workshops.planning_presentation") %>
 			</small>
 
 	</h3>
@@ -44,16 +44,16 @@
 		<ul class="list-group"> 
 		<li class="list-group-item active">
 			  
-			    Vendredi <small>(20h - 3h)</small>
+			    <%= t("workshops.friday") %> <small><%= t("workshops.20_3") %></small>
 			  </li> 
 			  <li class="list-group-item">
 			  	
-			    20h - 21h | Workshop WCS
-			    <span class="label label-info">Niveau 2</span>
-			    <span class="label label-warning">Niveau 3</span>
+			    <%= t("workshops.friday_1") %>
+			    <span class="label label-info"><%= t("workshops.level_2") %></span>
+			    <span class="label label-warning"><%= t("workshops.level_3") %></span>
 			  </li>
 			  <li class="list-group-item list-group-item-success">
-			    21h - 3h | Soirée
+			    <%= t("workshops.friday_2") %>
 			  </li>
 			</ul>
 		</div>
@@ -62,35 +62,35 @@
 		<ul class="list-group">
 			  <li class="list-group-item active">
 			   
-			    Samedi <small>(10h - 3h)</small>
+			    <%= t("workshops.saturday") %> <small><%= t("workshops.10_3") %></small>
 			  </li>
 			  <li class="list-group-item">
-			    10h - 11h30 | Workshop WCS
-			     <span class="label label-info">Niveau 2</span>
-			    <span class="label label-warning">Niveau 3</span>
+			    <%= t("workshops.saturday_1") %>
+			     <span class="label label-info"><%= t("workshops.level_2") %></span>
+			    <span class="label label-warning"><%= t("workshops.level_3") %></span>
 			  </li>
 			  <li class="list-group-item list-group-item-info">  
-			    11h30 - 13h | Break
+			    <%= t("workshops.saturday_2") %>
 			  </li>
 			  <li class="list-group-item">
-			  	13h - 15h | Workshop WCS
-			    <span class="label label-warning">Niveau 3</span>
+			  	<%= t("workshops.saturday_3") %>
+			    <span class="label label-warning"><%= t("workshops.level_3") %></span>
 			  </li>
 			  <li class="list-group-item">
-			  	15h15 - 16h15 | Workshop autre danse 
+			  	<%= t("workshops.saturday_4") %> 
 			  </li>
 			  <li class="list-group-item">
-			  	16h30 - 18h30 | Workshop WCS
-			  	<span class="label label-info">Niveau 2</span>  
+			  	<%= t("workshops.saturday_5") %>
+			  	<span class="label label-info"><%= t("workshops.level_2") %></span>  
 			  </li>
 				<li class="list-group-item list-group-item-info">
-			    18h30 - 20h30 | Break
+			    <%= t("workshops.saturday_6") %>
 			  </li>
 			  <li class="list-group-item">
-			  	20h30 - 21h30 | Workshop autre danse	    
+			  	<%= t("workshops.saturday_7") %>	    
 			  </li>
 			  <li class="list-group-item list-group-item-success">  
-			    21h30 - 3h | Soirée
+			    <%= t("workshops.saturday_8") %>
 			  </li>
 			</ul>
 		</div>
@@ -99,40 +99,40 @@
 		<ul class="list-group">
 			  <li class="list-group-item active">
 			    
-			    Dimanche <small>(10h - minuit)</small>
+			    <%= t("workshops.sunday") %> <small><%= t("workshops.10_midnight") %></small>
 			  </li>
 			  <li class="list-group-item">
 			   
-			    10h - 11h30 | Workshop WCS
-			     <span class="label label-info">Niveau 2</span>
-			    <span class="label label-warning">Niveau 3</span>
+			    <%= t("workshops.sunday_1") %>
+			     <span class="label label-info"><%= t("workshops.level_2") %></span>
+			    <span class="label label-warning"><%= t("workshops.level_3") %></span>
 			  </li>
 			  
 			  <li class="list-group-item list-group-item-info">
 			    
-			    11h30 - 13h | Break
+			    <%= t("workshops.sunday_2") %>
 			  </li>
 			  <li class="list-group-item">
-			  	13h - 15h | Workshop WCS
+			  	<%= t("workshops.sunday_3") %>
 			  	
-			    <span class="label label-info">Niveau 2</span>
+			    <span class="label label-info"><%= t("workshops.level_2") %></span>
 			    
 			  </li>
 			  <li class="list-group-item">
-			  	15h15 - 16h15 | Workshop autre danse
+			  	<%= t("workshops.sunday_4") %>
 			  	
 			    
 			    
 			  </li>
 			  <li class="list-group-item">
-			  	16h30 - 18h30 | Workshop WCS
-			  	<span class="label label-warning">Niveau 3</span>
+			  	<%= t("workshops.sunday_5") %>
+			  	<span class="label label-warning"><%= t("workshops.level_3") %></span>
 			    
 			  </li>
 				
 			  <li class="list-group-item list-group-item-success">
 			    
-			    18h30 - 00h | Soirée
+			    <%= t("workshops.sunday_6") %>
 			  </li>
 			</ul>
 	</div>
@@ -145,8 +145,8 @@
     		
     	
 <div class="row">	
-			<h3>Niveaux
-				<small><br><i>Si vous avez un doute sur le niveau qui vous correspond, n’hésitez pas à nous contacter.</i>
+			<h3><%= t("workshops.levels") %>
+				<small><br><i><%= t("workshops.levels_presentation") %></i>
 </small>
 			</h3>
 			<br>
@@ -155,13 +155,13 @@
 				<div class="col-md-6">
 					<div class="progress">
 					  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-					    Niveau 2
+					    <%= t("workshops.level_2") %>
 					  </div>
 					</div>
 					
 			<p>
-				Vous connaissez les figures de bases du West Coast Swing et chercher à développer votre vocabulaire avec de nouveaux enchainements. Vous commencez à être à l’aise en danse sociale sur la plupart des rythmes. 
-				<br>Si vous avez suivi une année de cours régulier et que vous dansez en social de temps en temps, ce niveau est fait pour vous.
+				<%= t("workshops.level_2_a") %> 
+				<br><%= t("workshops.level_2_b") %>
 
 			</p>
 				</div>
@@ -169,13 +169,13 @@
 				<div class="col-md-6">
 					<div class="progress">
 					  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-					    Niveau 3
+					    <%= t("workshops.level_3") %>
 					  </div>
 					</div>
 					
 					<p>
-						Vous êtes un accro du West Coast Swing. Vous en voulez toujours plus ! Vous avez déjà suivi quelques stages et vous écumez les soirées et allez danser dès que vous pouvez. Vous êtes à l’aise sur tous les rythmes. Vous cherchez à perfectionner votre technique pour avoir les outils qui vous feront progresser encore plus.
-						<br>Pour ce niveau, il est recommandé d’avoir suivi deux années de cours réguliers et d’avoir déjà suivi quelques stages.
+						<%= t("workshops.level_3_a") %>
+						<br><%= t("workshops.level_3_b") %>
 
 					</p>
 				</div>
@@ -192,19 +192,3 @@
 
 </div>
 </div>
-			
-
-
-
-
-  
-
-
-
-
-			
-			
-			
-			
-		
-

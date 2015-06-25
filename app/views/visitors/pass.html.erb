@@ -1,23 +1,23 @@
 <div class="pass_bg">
-	<div class="homy">Tarifs et conditions</div>
+	<div class="homy"><%= t("pass.title") %></div>
 </div>
 
 
 
 <div class="container">
-	<h1>Les Pass</h1>
+	<h1><%= t("pass.pass_title") %></h1>
 
 
 	<div role="tabpanel">
 
   <!-- Nav tabs -->
   <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+  <div class="col-md-8 col-md-offset-3">
   	<ul class="nav nav-pills text-center" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Super Early Bird<br><small>until July 31st</small></a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small>until October 31st</small></a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small>until 31st december</small></a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small>after 31st December</small></a></li>
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Super Early Bird<br><small><%= t("pass.til_31_july") %></small></a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small></a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small><%= t("pass.after_31_dec") %></small></a></li>
   </ul>
 </div>
 </div>
@@ -42,22 +42,22 @@
 
 </div>
 
-<h1>Les soirées à la carte
+<h1><%= t("pass.party_title") %>
 </h1>
 
-<p>Pas de réservation préalable.</p>
+<p><%= t("pass.party_warning") %></p>
 <div class="row text-center">
   <div class="col-md-3 col-md-offset-2" style="margin-top: 20px;">
     <div class="pricing-table">
       <div class="panel panel-primary" style="border: none;">
         <div class="controle-header panel-heading panel-heading-landing">
             <h1 class="panel-title panel-title-landing">
-              Vendredi
+              <%= t("workshops.friday") %>
             </h1>
         </div>
                         
         <div class="panel-body panel-body-landing">
-          ateliers pré-soirée inclus
+          <%= t("pass.workshops_included") %>
         </div>
         
         <div class="panel-footer panel-footer-landing">
@@ -71,12 +71,12 @@
       <div class="panel panel-primary" style="border: none;">
         <div class="controle-header panel-heading panel-heading-landing">
             <h1 class="panel-title panel-title-landing">
-              Samedi
+              <%= t("workshops.saturday") %>
             </h1>
         </div>
                         
         <div class="panel-body panel-body-landing">
-          ateliers pré-soirée inclus
+          <%= t("pass.workshops_included") %>
         </div>
         
         <div class="panel-footer panel-footer-landing">
@@ -90,12 +90,12 @@
       <div class="panel panel-primary" style="border: none;">
         <div class="controle-header panel-heading panel-heading-landing">
             <h1 class="panel-title panel-title-landing">
-              Dimanche
+              <%= t("workshops.sunday") %>
             </h1>
         </div>
                         
         <div class="panel-body panel-body-landing">
-          soirée uniquement
+          <%= t("pass.party_only") %>
         </div>
         
         <div class="panel-footer panel-footer-landing">
@@ -106,15 +106,15 @@
   </div>
 </div>
 
-<h1>Conditions</h1>
+<h1><%= t("pass.terms_title") %></h1>
 
-Après avoir rempli le formulaire sur la page d'inscription, merci d’effectuer le versement dans les 15 jours sur le compte suivant: 
+<%= t("pass.terms_1") %> 
 <span class="col-md-11 col-md-offset-1">
-<p>IBAN: BE33 3770 3805 4046 
-<br>BIC: BBRUBEBB
-<br>Communication: Swingplicity - Nom + Prénom + Pass choisi
+<p><%= t("pass.iban") %> 
+<br><%= t("pass.bic") %>
+<br><%= t("pass.communication") %>
 </p>
 </span>
 
-<p>En payant l’événement, vous acceptez la charte de l’événement.</p>
+<p><%= t("pass.charter_acceptance") %></p>
 </div>

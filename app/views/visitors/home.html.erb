@@ -4,12 +4,12 @@
 		<br>
 		
 
-<br><small><span class="little">Un événement social WCS au coeur de Bruxelles</span></small>
+<br><small><span class="little"><%= t("home.baseline") %></span></small>
 </div>
 
 	
 
-	<div class="col-md-4 col-md-offset-4 subscribe_btn"><%= link_to "Inscriptions", "#subscribe", class: "btn btn-lg btn-primary btn-block" %></div>
+	<div class="col-md-4 col-md-offset-4 subscribe_btn"><%= link_to t("signup"), "#subscribe", class: "btn btn-lg btn-primary btn-block" %></div>
 </div>
 
 
@@ -18,24 +18,24 @@
 
 <div class="container">
 
-	<h1>15 - 17 janvier 2016</h1>
+	<h1><%= t("home.date") %></h1>
 
-<p>Brussels WCS vous convie à la seconde édition du <b>SWINGPLICITY BRUSSELS</b>. </p>
-<p>Cet événement se déroulera entièrement à l'Hôtel Métropole en plein cœur de Bruxelles.
+<p><%= t("home.we_invite") %><b><%= t("home.event_name") %></b>. </p>
+<p><%= t("home.event_place") %>
 </p>
 
-<h3>Au programme pour vous:</h3>
+<h3><%= t("home.program") %></h3>
 
 <ul>
-<li>3 soirées de danse sociale dans une salle de 350 m² jusqu’à 3h du matin; dimanche fin de la soirée à minuit.
-<li>Des workshops WCS de niveaux différents.
-<li>Quelques ateliers pour s’ouvrir à d’autres danses et styles.
-<li>Hébergement possible dans le magnifique Hôtel Métropole (5*). Situation en centre-ville, proximité de restaurants et commerces, la Grand Place de Bruxelles à deux pas !
-<li>Une ambiance belge amicale et simple qui vous donnera envie de rester avec nous!
+<li><%= t("home.first_point") %>
+<li><%= t("home.second_point") %>
+<li><%= t("home.third_point") %>
+<li><%= t("home.fourth_point") %>
+<li><%= t("home.fifth_point") %>
 
 </ul>
 
-<p><b>Vous pouvez à tout moment nous <%= link_to "contacter par email", "mailto:info@swingplicitybrussels.be" %> afin d'obtenir plus d'informations. 
+<p><b><%= t("you_can") %><%= link_to t("home.contact_us"), "mailto:info@swingplicitybrussels.be" %> <%= t("home.to_get_info") %> 
 </b></p>
 
 
