@@ -6,6 +6,7 @@ $navbar-default-brand-color: #c0392b;
 $brand-primary:             #5A23A3;
 $brand-info:             #F39C12;
 $brand-warning:             #16A085;
+$brand-danger:              #34495E;
 $navbar-inverse-link-color: #f9cee1;
 
 // import the CSS framework
@@ -289,13 +290,16 @@ height: 100%;
     box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset;
     -webkit-transition:  all .3s ease;
 }
-.pricing-table:hover>.panel>.panel-body-landing {
-    background: #5CB85C;
-    -webkit-transition:  all .3s ease;
-}
+
 .pricing-table:hover>.panel>.panel-heading-landing-box {
     background: #f0f0f0 !important;
     color: #333 !important;
+    -webkit-transition:  all .3s ease;
+}
+
+/* BEGIN to change #5CB85C for each pass */
+.pricing-table:hover>.panel>.panel-body-landing {
+    background: #5CB85C;
     -webkit-transition:  all .3s ease;
 }
 .pricing-table:hover>.panel>.controle-header {
@@ -308,13 +312,15 @@ height: 100%;
     /*    border: solid 2px #5CB85C !important;*/
     -webkit-transition:  all .3s ease;
 }
-.pricing-table:hover>.panel>.panel-footer>.btn {
-    border: solid 1px #fff !important;
-    -webkit-transition:  all .3s ease;
-}
 .btn-price:hover {
     background: #fff !important;
     color: #5CB85C !important;
+    -webkit-transition:  all .3s ease;
+}
+/* END to change for each pass */
+
+.pricing-table:hover>.panel>.panel-footer>.btn {
+    border: solid 1px #fff !important;
     -webkit-transition:  all .3s ease;
 }
 .pricing-table:hover>.panel>.controle-header>.panel-title-landing {
@@ -338,7 +344,7 @@ height: 100%;
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
   border-top-right-radius: 10px !important; 
-  border: solid 2px #D35400 !important; 
+  border: solid 2px #34495E !important; 
   border-bottom: none !important;
 }
 .panel-heading-landing-atomium {
