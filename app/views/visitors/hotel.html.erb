@@ -9,7 +9,11 @@
 <h1 class="text-center page-header">
 	<%= t("hotel.hotel_title") %>
 </h1>
-<p class="text-center"><%= t("hotel.hotel_presentation") %></p>
+<p class="text-center">
+	<%= t("hotel.hotel_presentation") %>
+	<%= link_to t("hotel.hotel_presentation2"), "http://www.metropolehotel.com" %>
+	<%= t("hotel.hotel_presentation3") %>
+</p>
 
 <div class="row text-center">
 <div class="col-md-4 col-md-offset-1">
@@ -41,7 +45,7 @@
 	<p><%= t("hotel.rooms_breakfast") %></p>
 <p><%= t("hotel.rooms_booking") %> <%= link_to 'resa@metropolehotel.be', 'mailto:resa@metropolehotel.be' %>.</p>
 
-<p><%= link_to t("hotel.rooms_form_download"), "#", class: "btn btn-primary" %></p>
+<p><%= link_to t("hotel.rooms_form_download"), "http://swingplicity.herokuapp.com/hotel_form.pdf", class: "btn btn-primary" %></p>
 
 <p><strong><%= t("hotel.rooms_deadline") %></strong> <br><%= t("hotel.rooms_after_deadline") %></p>
 

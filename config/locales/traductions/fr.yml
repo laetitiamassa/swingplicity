@@ -3,8 +3,6 @@
   language: "FR"
   signup: "Inscription"
   prices: "Prix"
-  keywords: "Swingplicity, Bruxelles, Danse, West Coast Swing, WCS, Workshop, Stage"
-  description: "Brussels WCS vous convie à la deuxième édition du SWINGPLICITY BRUSSELS"
   home:
     baseline: "Un événement social WCS au coeur de Bruxelles"
     date: "15 - 17 janvier 2016"
@@ -85,9 +83,7 @@
   hotel:
     title: "Hôtel et environs"
     hotel_title: "L’hôtel Métropole"
-    hotel_presentation: "Comme l’année dernière, Swingplicity Brussels prend ses quartiers dans le somptueux "
-    hotel_presentation2: Hôtel Métropole"
-    hotel_presentation3: ", un hôtel 5 étoiles en plein coeur de Bruxelles."
+    hotel_presentation: "Comme l’année dernière, Swingplicity Brussels prend ses quartiers dans le somptueux Hôtel Métropole, un hôtel 5 étoiles en plein coeur de Bruxelles."
     under_hotel_text: "Dans l’hôtel se trouve un bar et un restaurant, et vous serez sur la Grand Place de Bruxelles en 5 minutes à pied."
     under_dancefloor_text: "Les cours auront lieu dans la magnifique salle Excelsior, une salle de 350 m² avec parquet."
     rooms_title: "Les chambres"
@@ -126,7 +122,6 @@
     bic: "BIC: BBRUBEBB"
     communication: "Communication: Swingplicity - Nom + Prénom + Pass choisi"
     charter_acceptance: "En payant l’événement, vous acceptez la charte de l’événement."
-    charter_download: "Télécharger la charte"
   edition_2015:
     menu: "Edition précédente"
     title: "Edition précédente: 2015 en images"

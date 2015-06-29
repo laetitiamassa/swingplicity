@@ -18,14 +18,10 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
   language: "EN"
   signup: "Registration"
   prices: "Prices"
-  keywords: "Swingplicity, Brussels, Dance, West Coast Swing, WCS, Workshop, Event"
-  description: "Brussels WCS invites you to the second edition of the SWINGPLICITY BRUSSELS"
   home:
     menu: "Home"
     baseline: "A WCS social event in the heart of Brussels"
@@ -110,10 +106,8 @@ en:
     menu: "Hotel"
     title: "Hotel and around"
     hotel_title: "Métropole hotel"
-    hotel_presentation: "Like last year, Swingplicity Brussels takes up residence in the sumptuous "
-    hotel_presentation2: "Metropole Hotel"
-    hotel_presentation3: ", a five-star hotel in the heart of Brussels."
-    under_hotel_text: "In the hotel, you will find a bar and a restaurant, and you will be at a 5-minute walking distance of the Grand Place of Brussels."
+    hotel_presentation: "Like last year, Swingplicity Brussels takes up residence in the sumptuous Metropole Hotel, a five-star hotel in the heart of Brussels."
+  under_hotel_text: "In the hotel, you will find a bar and a restaurant, and you will be at a 5-minute walking distance of the Grand Place of Brussels."
     under_dancefloor_text: "Classes and parties will take place in the amazing Excelsior room, with a 350 m² wooden dancefloor."
     rooms_title: "The rooms"
     rooms_presentation: "The team of Swingplicity Brussels negociated a price for the participants :"
@@ -151,7 +145,6 @@ en:
     bic: "BIC: BBRUBEBB"
     communication: "Payment reference: Swingplicity – Name + First Name + Pass"
     charter_acceptance: "By paying the event, you agree to the event charter."
-    charter_download: "Download the charter"
   edition_2015:
     menu: "Previous edition"
     title: "previous edition: pictures of 2015"
