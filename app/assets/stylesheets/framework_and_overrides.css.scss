@@ -4,8 +4,8 @@ $navbar-height:             60px;
 $navbar-default-bg:         white;
 $navbar-default-brand-color: #c0392b;
 $brand-primary:             #5A23A3;
-$brand-info:             #a21354;
-$brand-warning:             #f9cee1;
+$brand-info:             #F39C12;
+$brand-warning:             #16A085;
 $navbar-inverse-link-color: #f9cee1;
 
 // import the CSS framework
@@ -333,6 +333,68 @@ height: 100%;
     border: solid 2px #5CB85C !important; 
     border-bottom: none !important;
 }
+.panel-heading-landing-full {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #D35400 !important; 
+  border-bottom: none !important;
+}
+.panel-heading-landing-atomium {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #BDC3C7 !important; 
+  border-bottom: none !important;
+}
+
+.panel-heading-landing-pis {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #2980B9 !important; 
+  border-bottom: none !important;
+}
+
+.panel-heading-landing-party {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #5A23A3 !important; 
+  border-bottom: none !important;
+}
+
+.panel-heading-landing-friday {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #5A23A3 !important; 
+  border-bottom: none !important;
+}
+
+.panel-heading-landing-saturday {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #5A23A3 !important; 
+  border-bottom: none !important;
+}
+
+.panel-heading-landing-sunday {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #5A23A3 !important; 
+  border-bottom: none !important;
+}
+
 .panel-heading-landing-box {
     background: #5CB85C !important; 
     color: #fff !important; 
