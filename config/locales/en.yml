@@ -52,7 +52,7 @@ en:
     stan_col_video_3_a: "Coleen Man, Open Strictly" 
     stan_col_video_3_b: "1st Place at French Open 2015"
   workshops:
-    menu: "workshops"
+    menu: "Workshops"
     title: "Workshops"
     level_2: "Level 2"
     level_3: "Level 3"
@@ -134,7 +134,7 @@ en:
     charter_download: "Download the charter"
   edition_2015:
     menu: "Previous edition"
-    title: "previous edition: pictures of 2015"
+    title: "Pictures of 2015"
     pictures: "Pictures"
     pics_text_1: "All the photos of Swingplicity 2015 are available"
     here: "here"
