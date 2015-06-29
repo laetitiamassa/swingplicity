@@ -1,31 +1,9 @@
-﻿# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
   language: "EN"
   signup: "Registration"
   prices: "Prices"
-  keywords: "Swingplicity, Brussels, Dance, West Coast Swing, WCS, Workshop, Event"
-  description: "Brussels WCS invites you to the second edition of the SWINGPLICITY BRUSSELS"
+  keywords: "Swingplicity, Bruxelles, Danse, West Coast Swing, WCS, Workshop, Stage"
+  description: "Brussels WCS vous convie à la deuxième édition du SWINGPLICITY BRUSSELS"
   home:
     menu: "Home"
     baseline: "A WCS social event in the heart of Brussels"
@@ -134,7 +112,7 @@ en:
     til_31_oct: "until October 31st, 2015"
     til_31_dec: "until December 31st, 2015"
     after_31_dec: "after December 31st, 2015"
-  courses_level_2: "WCS workshops Level 2"
+    courses_level_2: "WCS workshops Level 2"
     courses_level_3: "WCS workshops Level 3"
     courses_level_both: "WCS workshops Level 2 and 3"
     other_dance: "Other dance workshop"
@@ -160,5 +138,3 @@ en:
     here: "here"
     pics_text_2: "If you want to share a photo, please respect the copyright and keep it on the photo. If you are not sure of the use of a photo, do not hesitate to ask us."
     videos: "Videos"
-
-

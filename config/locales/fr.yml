@@ -6,6 +6,7 @@
   keywords: "Swingplicity, Bruxelles, Danse, West Coast Swing, WCS, Workshop, Stage"
   description: "Brussels WCS vous convie à la deuxième édition du SWINGPLICITY BRUSSELS"
   home:
+    menu: "Accueil"
     baseline: "Un événement social WCS au coeur de Bruxelles"
     date: "15 - 17 janvier 2016"
     we_invite: "Brussels WCS vous convie à la seconde édition du "
@@ -21,6 +22,7 @@
     contact_us: "contacter par email"
     to_get_info: "afin d'obtenir plus d'informations."
   teachers:
+    menu: "Professeurs"
     title: "Les profs du Swingplicity"
     prof_title_menu_1: "Maxence & Virginie"
     prof_title_menu_2: "Stanley & Coleen"
@@ -49,6 +51,7 @@
     stan_col_video_3_a: "Coleen Man, Open Strictly" 
     stan_col_video_3_b: "1st Place at French Open 2015"
   workshops:
+    menu: "Workshops"
     title: "Workshops"
     level_2: "Niveau 2"
     level_3: "Niveau 3"
@@ -83,6 +86,7 @@
     level_3_a: "Vous êtes un accro du West Coast Swing. Vous en voulez toujours plus ! Vous avez déjà suivi quelques stages et vous écumez les soirées et allez danser dès que vous pouvez. Vous êtes à l’aise sur tous les rythmes. Vous cherchez à perfectionner votre technique pour avoir les outils qui vous feront progresser encore plus."
     level_3_b: "Pour ce niveau, il est recommandé d’avoir suivi deux années de cours réguliers et d’avoir déjà suivi quelques stages."
   hotel:
+    menu: "Hôtel"
     title: "Hôtel et environs"
     hotel_title: "L’hôtel Métropole"
     hotel_presentation: "Comme l’année dernière, Swingplicity Brussels prend ses quartiers dans le somptueux "
