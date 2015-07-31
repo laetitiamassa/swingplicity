@@ -7,15 +7,36 @@
 <div class="container">
 	<h1><%= t("pass.pass_title") %></h1>
 
-
 	<div role="tabpanel">
 
   <!-- Nav tabs -->
   <div class="row">
+
   <div class="col-md-8 col-md-offset-3">
+
   	<ul class="nav nav-pills text-center" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Super Early Bird<br><small><%= t("pass.til_31_july") %></small></a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small></a></li>
+
+<!-- 1E AOUT : supprimer ou mettre en commentaire le "li" qui suit -->
+<% if Time.now > "2015-08-01 00:00:00 +0200" %>
+    <li role="presentation">
+<% else %>
+    <li role="presentation" class="active">
+<% end %>
+      <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+        Super Early Bird<br>
+        <small><%= t("pass.til_31_july") %></small>
+      </a>
+    </li>
+<!-- fin 1E AOUT -->
+
+<% if Time.now > "2015-08-01 00:00:00 +0200" %>
+    <li role="presentation" class="active">
+<% else %>
+    <li role="presentation">
+<% end %>
+      <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small>
+      </a>
+    </li>
     <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a></li>
     <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small><%= t("pass.after_31_dec") %></small></a></li>
   </ul>
@@ -24,12 +45,25 @@
 
   <!-- Tab panes -->
   <div class="tab-content">
+
+<!-- 1E AOUT : supprimer ou mettre en commentaire-->
+<% if Time.now > "2015-08-01 00:00:00 +0200" %>
+  <div role="tabpanel" class="tab-pane" id="home">
+<% else %>
     <div role="tabpanel" class="tab-pane active" id="home">
-
+<% end %>
       <%= render "super_early_bird" %>
-
     </div>
-    <div role="tabpanel" class="tab-pane" id="profile">
+<!-- fin 1E août -->
+
+<!-- 1e août : <div role="tabpanel" class="tab-pane active" id="profile"> -->
+<% if Time.now > "2015-08-01 00:00:00 +0200" %>
+    <div role="tabpanel" class="tab-pane active" id="profile">
+<% else %>
+  <div role="tabpanel" class="tab-pane" id="profile">
+<% end %>
+<!-- fin 1E août -->
+
       <%= render "early_bird" %>
     </div>
     <div role="tabpanel" class="tab-pane" id="messages">
