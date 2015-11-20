@@ -36,27 +36,13 @@
   <!-- Tab panes -->
   <div class="tab-content">
 
-<!-- 1E AOUT : supprimer ou mettre en commentaire-->
-<% if Time.now > "2015-08-01 00:00:00 +0200" %>
   <div role="tabpanel" class="tab-pane" id="home">
-<% else %>
-    <div role="tabpanel" class="tab-pane active" id="home">
-<% end %>
       <%= render "super_early_bird" %>
     </div>
-<!-- fin 1E août -->
-
-<!-- 1e août : <div role="tabpanel" class="tab-pane active" id="profile"> -->
-<% if Time.now > "2015-08-01 00:00:00 +0200" %>
-    <div role="tabpanel" class="tab-pane active" id="profile">
-<% else %>
   <div role="tabpanel" class="tab-pane" id="profile">
-<% end %>
-<!-- fin 1E août -->
-
       <%= render "early_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane" id="messages">
+    <div role="tabpanel" class="tab-pane active" id="messages">
       <%= render "lazy_bird" %>
     </div>
     <div role="tabpanel" class="tab-pane" id="settings">
