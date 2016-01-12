@@ -27,8 +27,8 @@
       <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small>
       </a>
     </li>
-    <li role="presentation" class="active"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small><%= t("pass.after_31_dec") %></small></a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a></li>
+    <li role="presentation" class="active"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small><%= t("pass.after_31_dec") %></small></a></li>
   </ul>
 </div>
 </div>
@@ -42,10 +42,10 @@
   <div role="tabpanel" class="tab-pane" id="profile">
       <%= render "early_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane active" id="messages">
+    <div role="tabpanel" class="tab-pane" id="messages">
       <%= render "lazy_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane" id="settings">
+    <div role="tabpanel" class="tab-pane active" id="settings">
       <%= render "later_bird" %>
     </div>
   </div>
