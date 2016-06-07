@@ -54,7 +54,8 @@
     title: "Workshops"
     level_1: "Niveau 1"
     level_2: "Niveau 2"
-    level_3: "Niveau 3"
+    level_3: "Niveau 3-4"
+    level_5: "Niveau 5"
     planning: "Planning"
     levels: "Niveaux"
     planning_presentation: "Veuillez trouver ci-dessous le planning du Swingplicity 2016."
@@ -89,6 +90,8 @@
     level_2_b: "Si vous avez suivi une année de cours régulier et que vous dansez en social de temps en temps, ce niveau est fait pour vous."
     level_3_a: "Vous êtes un accro du West Coast Swing. Vous en voulez toujours plus ! Vous avez déjà suivi quelques stages et vous écumez les soirées et allez danser dès que vous pouvez. Vous êtes à l’aise sur tous les rythmes. Vous cherchez à perfectionner votre technique pour avoir les outils qui vous feront progresser encore plus."
     level_3_b: "Pour ce niveau, il est recommandé d’avoir suivi deux années de cours réguliers et d’avoir déjà suivi quelques stages."
+    level_5_a: "Vous avez atteint un niveau qui vous permet d’être à l’écoute de la musique et de votre partenaire. Vous commencez à créer vos propres mouvements et enchainements et cherchez à acquérir des outils qui vous permettront d’améliorer votre danse, votre partenariat, votre créativité."
+    level_5_b: "Ce niveau est par exemple adapté (mais pas limité) à des danseurs qui ont déjà obtenu des points en compétition. Pour ce niveau, les organisateurs se réservent le droit de rediriger les danseurs vers un niveau plus adapté lors de leur inscription s’ils pensent que cela améliorera l’apprentissage de tous les participants. Les professeurs auront toute latitude pour faire de même."
   hotel:
     menu: "Hôtel"
     title: "Hôtel et environs"
