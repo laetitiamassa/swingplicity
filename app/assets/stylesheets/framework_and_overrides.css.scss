@@ -345,19 +345,16 @@ height: 100%;
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
   border-top-right-radius: 10px !important; 
-  border: solid 2px #34495E !important; 
+  border: solid 2px #FF5555 !important; 
   border-bottom: none !important;
 }
-.panel-heading-landing-orval {
-  background: #f7f7f7 !important; 
-  padding: 20px !important; 
-  border-top-left-radius: 10px !important;  
-  border-top-right-radius: 10px !important; 
-  border: solid 2px #16A085 !important; 
-  border-bottom: none !important;
+.btn-jupile{
+	color: #fff;
+    background-color: #FF5555;
+    border-color: #FF5555;
 }
 
-.panel-heading-landing-duvel {
+.panel-heading-landing-orval {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
@@ -366,12 +363,21 @@ height: 100%;
   border-bottom: none !important;
 }
 
+.panel-heading-landing-duvel {
+  background: #f7f7f7 !important; 
+  padding: 20px !important; 
+  border-top-left-radius: 10px !important;  
+  border-top-right-radius: 10px !important; 
+  border: solid 2px #16A085 !important; 
+  border-bottom: none !important;
+}
+
 .panel-heading-landing-chimay {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
   border-top-right-radius: 10px !important; 
-  border: solid 2px #FF5555 !important; 
+  border: solid 2px #2C5AA0 !important; 
   border-bottom: none !important;
 }
 
