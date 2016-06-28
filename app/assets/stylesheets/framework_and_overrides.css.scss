@@ -345,7 +345,7 @@ height: 100%;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-.panel-heading-landing-jupiler {
+.panel-heading-landing-level1 {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
@@ -353,13 +353,13 @@ height: 100%;
   border: solid 2px #FF5555 !important; 
   border-bottom: none !important;
 }
-.btn-jupiler{
+.btn-level1{
 	color: #fff;
     background-color: #FF5555;
     border-color: #FF5555;
 }
 
-.panel-heading-landing-orval {
+.panel-heading-landing-level2 {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
@@ -367,8 +367,13 @@ height: 100%;
   border: solid 2px #F39C12 !important; 
   border-bottom: none !important;
 }
+.btn-level2{
+	color: #fff;
+    background-color: #F39C12;
+    border-color: #F39C12;
+}
 
-.panel-heading-landing-duvel {
+.panel-heading-landing-level3 {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
@@ -376,14 +381,24 @@ height: 100%;
   border: solid 2px #16A085 !important; 
   border-bottom: none !important;
 }
+.btn-level3{
+	color: #fff;
+    background-color: #16A085;
+    border-color: #16A085;
+}
 
-.panel-heading-landing-chimay {
+.panel-heading-landing-level5 {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
   border-top-right-radius: 10px !important; 
   border: solid 2px #2C5AA0 !important; 
   border-bottom: none !important;
+}
+.btn-level5{
+	color: #fff;
+    background-color: #2C5AA0;
+    border-color: #2C5AA0;
 }
 
 .panel-heading-landing-party {

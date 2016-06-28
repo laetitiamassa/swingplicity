@@ -2,16 +2,19 @@
     <div class="col-md-3" style="margin-top: 20px;">
 		<div class="pricing-table">
 			<div class="panel panel-primary" style="border: none;">
-				<div class="controle-header panel-heading panel-heading-landing-jupiler">
+				<div class="controle-header panel-heading panel-heading-landing-level1">
 					<h1 class="panel-title panel-title-landing">
 						Jupiler
 					</h1>
+					<h2 class="panel-h2-pass">
+						<%= t("pass.courses_level_1") %>
+					</h2>
 				</div>
 				<div class="panel-body panel-body-landing">
 					<table class="table">
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.courses_level_1") %><br>2 H</td>
+							<td><%= t("pass.courses") %><br/>2 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
@@ -19,16 +22,16 @@
 						</tr>
 						<tr>
 							<td width="50px">&nbsp;</td>
-							<td>&nbsp;<br/>&nbsp;</td>
+							<td>&nbsp;<br>&nbsp;</td>
 						</tr>
-					</table>
+                    </table>
 				</div>
 				<div class="panel-footer panel-footer-landing">
 					<form class="button_to" method="get" target="_blank" action="http://registration.swingplicitybrussels.be">
-						<% if Time.now > "2016-11-01 00:00:00 +0200" %>
-						<input class="btn btn-price btn-danger btn-lg disabled" type="submit" value="35 EUR">
+						<% if Time.now > "2016-08-01 00:00:00 +0200" %>
+						<input class="btn btn-price btn-lg btn-level1 disabled" type="submit" value="35 EUR">
 						<% else %>
-						<input class="btn btn-price btn-danger btn-lg" type="submit" value="35 EUR">
+						<input class="btn btn-price btn-lg btn-level1" type="submit" value="35 EUR">
 						<% end %>
 					</form>
 				</div>
@@ -39,21 +42,24 @@
 	<div class="col-md-3" style="margin-top: 20px;">
 		<div class="pricing-table">
 			<div class="panel panel-primary" style="border: none;">
-				<div class="controle-header panel-heading panel-heading-landing-orval">
+				<div class="controle-header panel-heading panel-heading-landing-level2">
 					<h1 class="panel-title panel-title-landing">
 						Orval
 					</h1>
+					<h2 class="panel-h2-pass">
+						<%= t("pass.courses_level_2") %>
+					</h2>
 				</div>
 				
 				<div class="panel-body panel-body-landing">
 					<table class="table">
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.courses_level_2") %><br>7,5 H</td>
+							<td><%= t("pass.courses") %><br>5,5 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.other_dance") %><br>2 H</td>
+							<td><%= t("pass.other_dance") %><br><%= t("pass.or") %><br><%= t("pass.courses_all") %><br>2 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
@@ -63,10 +69,10 @@
 				</div>
 				<div class="panel-footer panel-footer-landing">
 					<form class="button_to" method="get" target="_blank" action="http://registration.swingplicitybrussels.be">
-						<% if Time.now > "2016-11-01 00:00:00 +0200" %>
-						<input class="btn btn-price btn-info btn-lg disabled" type="submit" value="100 EUR">
+						<% if Time.now > "2016-08-01 00:00:00 +0200" %>
+						<input class="btn btn-price btn-level2 btn-lg disabled" type="submit" value="100 EUR">
 						<% else %>
-						<input class="btn btn-price btn-info btn-lg" type="submit" value="100 EUR">
+						<input class="btn btn-price btn-level2 btn-lg" type="submit" value="100 EUR">
 						<% end %>
 					</form>
 				</div>
@@ -77,21 +83,24 @@
 	<div class="col-md-3" style="margin-top: 20px;">
 		<div class="pricing-table">
 			<div class="panel panel-primary" style="border: none;">
-				<div class="controle-header panel-heading panel-heading-landing-duvel">
+				<div class="controle-header panel-heading panel-heading-landing-level3">
 					<h1 class="panel-title panel-title-landing">
 						Duvel
 					</h1>
+					<h2 class="panel-h2-pass">
+						<%= t("pass.courses_level_3") %>
+					</h2>
 				</div>
 			   
 				<div class="panel-body panel-body-landing">
 					<table class="table">
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.courses_level_3") %><br>7,5 H</td>
+							<td><%= t("pass.courses") %><br>5,5 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.other_dance") %><br>2 H</td>
+							<td><%= t("pass.other_dance") %><br><%= t("pass.or") %><br><%= t("pass.courses_all") %><br>2 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
@@ -101,10 +110,10 @@
 				</div>
 				<div class="panel-footer panel-footer-landing">
 					<form class="button_to" method="get" target="_blank" action="http://registration.swingplicitybrussels.be">
-						<% if Time.now > "2016-11-01 00:00:00 +0200" %>
-						<input class="btn btn-price btn-warning btn-lg disabled" type="submit" value="100 EUR">
+						<% if Time.now > "2016-08-01 00:00:00 +0200" %>
+						<input class="btn btn-price btn-level3 btn-lg disabled" type="submit" value="100 EUR">
 						<% else %>
-						<input class="btn btn-price btn-warning btn-lg" type="submit" value="100 EUR">
+						<input class="btn btn-price btn-level3 btn-lg" type="submit" value="100 EUR">
 						<% end %>
 						</form>
 				</div>
@@ -115,21 +124,24 @@
 	<div class="col-md-3" style="margin-top: 20px;">
 		<div class="pricing-table">
 			<div class="panel panel-primary" style="border: none;">
-				<div class="controle-header panel-heading panel-heading-landing-chimay">
+				<div class="controle-header panel-heading panel-heading-landing-level5">
 					<h1 class="panel-title panel-title-landing">
 						Chimay
 					</h1>
+					<h2 class="panel-h2-pass">
+						<%= t("pass.courses_level_5") %>
+					</h2>
 				</div>
 			   
 				<div class="panel-body panel-body-landing">
 					<table class="table">
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.courses_level_5") %><br>7 H</td>
+							<td><%= t("pass.courses") %><br>5 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
-							<td><%= t("pass.other_dance") %><br>2 H</td>
+							<td><%= t("pass.other_dance") %><br><%= t("pass.or") %><br><%= t("pass.courses_all") %><br>2 H</td>
 						</tr>
 						<tr>
 							<td width="50px"><i class="fa fa-check"></i></td>
@@ -139,10 +151,10 @@
 				</div>
 				<div class="panel-footer panel-footer-landing">
 					<form class="button_to" method="get" target="_blank" action="http://registration.swingplicitybrussels.be">
-						<% if Time.now > "2016-11-01 00:00:00 +0200" %>
-						<input class="btn btn-price btn-primary btn-lg disabled" type="submit" value="100 EUR">
+						<% if Time.now > "2016-08-01 00:00:00 +0200" %>
+						<input class="btn btn-price btn-level5 btn-lg disabled" type="submit" value="100 EUR">
 						<% else %>
-						<input class="btn btn-price btn-primary btn-lg" type="submit" value="100 EUR">
+						<input class="btn btn-price btn-level5 btn-lg" type="submit" value="100 EUR">
 						<% end %>
 					</form>
 				</div>
