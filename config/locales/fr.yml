@@ -125,6 +125,8 @@
     party_level_1: "Accès à la soiréee samedi"
     option_level_1: ""
     courses: "Cours WCS"
+    courses_all: "Cours WCS tous niveaux"
+    or: "ou"
     courses_level_1: "Niveau 1"
     courses_level_2: "Niveau 2"
     courses_level_3: "Niveau 3-4"

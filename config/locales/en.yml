@@ -126,6 +126,8 @@ en:
     party_level_1: "Access to the saturday party"
     option_level_1: ""
     courses: "WCS Workshops"
+    courses_all: "WCS Workshops all levels"
+    or: "or"
     courses_level_1: "Level 1"
     courses_level_2: "Level 2"
     courses_level_3: "Level 3-4"
