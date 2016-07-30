@@ -52,6 +52,8 @@
   workshops:
     menu: "Workshops"
     title: "Workshops"
+    salle1: "Grande Salle"
+    salle2: "Petite Salle"
     level_1: "Niveau 1"
     level_2: "Niveau 2"
     level_3: "Niveau 3-4"
