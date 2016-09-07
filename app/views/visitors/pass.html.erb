@@ -16,16 +16,16 @@
 
   	<ul class="nav nav-pills text-center" role="tablist">
 
-    <li role="presentation" class="active">
+    <li role="presentation">
       <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Super Early Bird<br><small><%= t("pass.til_31_july") %></small></a>
     </li>
-    <li role="presentation">
+    <li role="presentation" <% if Time.now < "2016-11-01 00:00:00 +0200" %>class="active"<% end %>>
       <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small></a>
     </li>
-    <li role="presentation">
+    <li role="presentation" <% if Time.now > "2016-11-01 00:00:00 +0200" & Time.now < "2017-01-01 00:00:00 +0200" %>class="active"<% end %>>
 		<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a>
 	</li>
-    <li role="presentation">
+    <li role="presentation" <% if Time.now > "2017-01-01 00:00:00 +0200" %>class="active"<% end %>>
 		<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small><%= t("pass.after_31_dec") %></small></a>
 	</li>
   </ul>
