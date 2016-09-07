@@ -22,7 +22,7 @@
     <li role="presentation" <% if Time.now < "2016-11-01 00:00:00 +0200" %>class="active"<% end %>>
       <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small></a>
     </li>
-    <li role="presentation" <% if Time.now > "2016-11-01 00:00:00 +0200" & Time.now < "2017-01-01 00:00:00 +0200" %>class="active"<% end %>>
+    <li role="presentation" <% if Time.now > "2016-11-01 00:00:00 +0200" and Time.now < "2017-01-01 00:00:00 +0200" %>class="active"<% end %>>
 		<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a>
 	</li>
     <li role="presentation" <% if Time.now > "2017-01-01 00:00:00 +0200" %>class="active"<% end %>>
