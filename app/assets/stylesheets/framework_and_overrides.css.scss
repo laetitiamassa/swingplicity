@@ -401,13 +401,18 @@ height: 100%;
     border-color: #2C5AA0;
 }
 
-.panel-heading-landing-party {
+.panel-heading-landing-extra {
   background: #f7f7f7 !important; 
   padding: 20px !important; 
   border-top-left-radius: 10px !important;  
   border-top-right-radius: 10px !important; 
   border: solid 2px #5A23A3 !important; 
   border-bottom: none !important;
+}
+.btn-extra{
+	color: #fff;
+    background-color: #5A23A3;
+    border-color: #5A23A3;
 }
 
 .panel-heading-landing-friday {
