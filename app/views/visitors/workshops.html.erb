@@ -32,14 +32,14 @@
 			<div class="row">	
 				<br>
 				<h3>
-					<%= t("workshops.salle1") %>
+					<%= t("workshops.friday") %>
 				</h3>
 				<br>
 				<div class="col-md-4">
 					<ul class="list-group"> 
 					  <li class="list-group-item active">
 					  
-						<%= t("workshops.friday") %> <small><%= t("workshops.20_three") %></small>
+						<%= t("workshops.salle1") %> <small><%= t("workshops.20_three") %></small>
 					  </li> 
 					  <li class="list-group-item">
 						
@@ -53,12 +53,30 @@
 					  </li>
 					</ul>
 				</div>
+				
+				<div class="col-md-4">
+					<ul class="list-group"> 
+					  <li class="list-group-item active">
+						<%= t("workshops.salle2") %> <small><%= t("workshops.20_three") %></small>
+					  </li> 
+					  <li class="list-group-item list-group-item-info">
+						<%= t("workshops.closed") %>
+					  </li>
+					</ul>
+				</div>
 
+			</div>
+			<div class="row">		
+				<br>
+				<h3>
+					<%= t("workshops.saturday") %>
+				</h3>
+				<br>
 				<div class="col-md-4">
 					<ul class="list-group">
 					  <li class="list-group-item active">
 					   
-						<%= t("workshops.saturday") %> <small><%= t("workshops.10_three") %></small>
+						<%= t("workshops.salle1") %> <small><%= t("workshops.10_three") %></small>
 					  </li>
 					  <li class="list-group-item">
 						<%= t("workshops.saturday_1") %>
@@ -91,10 +109,47 @@
 				</div>
 
 				<div class="col-md-4">
+				<ul class="list-group">
+					  <li class="list-group-item active">
+					   
+						<%= t("workshops.salle2") %> <small><%= t("workshops.10_three") %></small>
+					  </li>
+					  <li class="list-group-item">
+						<%= t("workshops.saturday_1b") %>
+						<span class="label label-info"><%= t("workshops.level_2") %></span>
+						<span class="label label-warning"><%= t("workshops.level_3") %></span>
+						<span class="label label-warning" style="background-color: #2C5AA0;"><%= t("workshops.level_5") %></span>
+					  </li>
+					  <li class="list-group-item list-group-item-info">  
+						<%= t("workshops.saturday_2bis") %>
+					  </li>
+					  <li class="list-group-item">
+						<%= t("workshops.saturday_3") %>
+						<span class="label label-warning" style="text-align: right; background-color: #2C5AA0;"><%= t("workshops.level_5") %></span>
+					  </li>
+					  <li class="list-group-item">
+						<%= t("workshops.saturday_5_ter") %>
+						<span class="label label-info" style="text-align: right; background-color:#FF5555;"><%= t("workshops.level_1") %></span>
+					  </li>
+					  <li class="list-group-item list-group-item-info">
+						<%= t("workshops.closed") %>
+					  </li>
+					</ul>
+				</div>
+
+			</div>
+			
+			<div class="row">		
+				<br>
+				<h3>
+					<%= t("workshops.sunday") %>
+				</h3>
+				<br>
+				<div class="col-md-4">
 					<ul class="list-group">
 					  <li class="list-group-item active">
 						
-						<%= t("workshops.sunday") %> <small><%= t("workshops.10_midnight") %></small>
+						<%= t("workshops.salle1") %> <small><%= t("workshops.10_midnight") %></small>
 					  </li>
 					  <li class="list-group-item">
 						<%= t("workshops.sunday_1") %>
@@ -122,58 +177,12 @@
 					  </li>
 					</ul>
 				</div>
-			</div>
-			<div class="row">		
-				<br>
-				<h3>
-					<%= t("workshops.salle2") %>
-				</h3>
-				<br>
-				<div class="col-md-4">
-					<ul class="list-group"> 
-					  <li class="list-group-item active">
-						<%= t("workshops.friday") %> <small><%= t("workshops.20_three") %></small>
-					  </li> 
-					  <li class="list-group-item list-group-item-info">
-						<%= t("workshops.closed") %>
-					  </li>
-					</ul>
-				</div>
-
-				<div class="col-md-4">
-				<ul class="list-group">
-					  <li class="list-group-item active">
-					   
-						<%= t("workshops.saturday") %> <small><%= t("workshops.10_three") %></small>
-					  </li>
-					  <li class="list-group-item">
-						<%= t("workshops.saturday_1b") %>
-						<span class="label label-info"><%= t("workshops.level_2") %></span>
-						<span class="label label-warning"><%= t("workshops.level_3") %></span>
-						<span class="label label-warning" style="background-color: #2C5AA0;"><%= t("workshops.level_5") %></span>
-					  </li>
-					  <li class="list-group-item list-group-item-info">  
-						<%= t("workshops.saturday_2bis") %>
-					  </li>
-					  <li class="list-group-item">
-						<%= t("workshops.saturday_3") %>
-						<span class="label label-warning" style="text-align: right; background-color: #2C5AA0;"><%= t("workshops.level_5") %></span>
-					  </li>
-					  <li class="list-group-item">
-						<%= t("workshops.saturday_5_ter") %>
-						<span class="label label-info" style="text-align: right; background-color:#FF5555;"><%= t("workshops.level_1") %></span>
-					  </li>
-					  <li class="list-group-item list-group-item-info">
-						<%= t("workshops.closed") %>
-					  </li>
-					</ul>
-				</div>
-
+				
 				<div class="col-md-4">
 					<ul class="list-group">
 					  <li class="list-group-item active">
 						
-						<%= t("workshops.sunday") %> <small><%= t("workshops.10_midnight") %></small>
+						<%= t("workshops.salle2") %> <small><%= t("workshops.10_midnight") %></small>
 					  </li>
 					  <li class="list-group-item">
 						<%= t("workshops.sunday_1b") %>
@@ -195,6 +204,7 @@
 				</div>
 
 			</div>
+			
 			<p>
 				<small>
 					<br><%= t("workshops.warning") %>
