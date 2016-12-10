@@ -27,6 +27,7 @@
     title: "Les profs du Swingplicity"
     prof_title_menu_1: "Maxence & Virginie"
     prof_title_menu_2: "Stanley & Coleen"
+    prof_title_menu_3: "Emeline"
     prof_title_1: "Maxence Martin et Virginie Grondin (France)"
     max_1: "Maxence Martin est l'un des organisateurs du WOTP mais il est surtout le premier danseur français ayant obtenu le titre de Champion en West Coast Swing."
     max_2: "Ancien Champion et ceinture noire de Judo, il débute sa carrière dans la danse avec le Lindy Hop. Très vite tombé sous le charme du WCS, il commence sa formation en 2007 aux côtés des plus grands en Californie. Il s'affirmera en moins d'un an dans la catégorie des Champions américains."
@@ -49,6 +50,7 @@
     stan_col: "Ils reviennent tous les deux pour la deuxième année au Swingplicity Brussels."
     stan_col_video_1: "Une improvisation au French Open 2016"
     stan_col_video_2: "Une improvisation au Midland Swing Open 2015" 
+    prof_title_3: "Emeline Rochefeuille (France)"
   workshops:
     menu: "Workshops"
     title: "Workshops"
