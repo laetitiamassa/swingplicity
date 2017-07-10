@@ -35,16 +35,16 @@
   <!-- Tab panes -->
   <div class="tab-content">
 
-  <div role="tabpanel" class="tab-pane <% if Time.now < "2017-08-19 00:00:00 +0200" %>class="active"<% end %>" id="home">
+  <div role="tabpanel" class="tab-pane <% if Time.now < "2017-08-19 00:00:00 +0200" %>active<% end %>" id="home">
       <%= render "super_early_bird" %>
     </div>
-  <div role="tabpanel" class="tab-pane <% if Time.now > "2017-08-19 00:00:00 +0200" and Time.now < "2017-11-01 00:00:00 +0200" %>class="active"<% end %>" id="profile">
+  <div role="tabpanel" class="tab-pane <% if Time.now > "2017-08-19 00:00:00 +0200" and Time.now < "2017-11-01 00:00:00 +0200" %>active<% end %>" id="profile">
       <%= render "early_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane <% if Time.now > "2017-11-01 00:00:00 +0200" and Time.now < "2018-01-01 00:00:00 +0200" %>class="active"<% end %>" id="messages">
+    <div role="tabpanel" class="tab-pane <% if Time.now > "2017-11-01 00:00:00 +0200" and Time.now < "2018-01-01 00:00:00 +0200" %>active<% end %>" id="messages">
       <%= render "lazy_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane <% if Time.now > "2018-01-01 00:00:00 +0200" %>class="active"<% end %>" id="settings">
+    <div role="tabpanel" class="tab-pane <% if Time.now > "2018-01-01 00:00:00 +0200" %>active<% end %>" id="settings">
       <%= render "later_bird" %>
     </div>
   </div>
