@@ -46,10 +46,9 @@
 							<tr>
 								<td width="100px">20h - 21h</td>
 								<td>
-									<%= t("workshops.friday_1") %><br/><i><%= t("workshops.with") %> Sven & Emeline</i><br/>
+									<%= t("workshops.friday_1") %><br/><!--<i><%= t("workshops.with") %> Sven & Emeline</i>--><br/>
 									<span class="label label-info"><%= t("workshops.level_2") %></span>
 									<span class="label label-warning"><%= t("workshops.level_3") %></span>
-									<span class="label label-warning" style="background-color: #2C5AA0;"><%= t("workshops.level_5") %></span>
 								</td>
 							</tr>
 						</table>
@@ -71,6 +70,18 @@
 					  <li class="list-group-item active">
 						<%= t("workshops.salle2") %>
 					  </li> 
+					  <li class="list-group-item">
+						<table>
+							<tr>
+								<td width="100px">20h - 21h</td>
+								<td>
+									<%= t("workshops.friday_1") %><br/><!--<i><%= t("workshops.with") %> Sven & Emeline</i>--><br/>
+									<span class="label label-warning"><%= t("workshops.level_4") %></span>
+									<span class="label label-warning" style="background-color: #2C5AA0;"><%= t("workshops.level_5") %></span>
+								</td>
+							</tr>
+						</table>
+					  </li>
 					  <li class="list-group-item list-group-item-info">
 						<%= t("workshops.closed") %>
 					  </li>
@@ -393,6 +404,20 @@
 					<p>
 						<%= t("workshops.level_3_a") %>
 						<br><%= t("workshops.level_3_b") %>
+
+					</p>
+				</div>
+				
+				<div class="col-md-6">
+					<div class="progress">
+					  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;background-color: #2C5AA0;">
+					    <%= t("workshops.level_4") %>
+					  </div>
+					</div>
+					
+					<p>
+						<%= t("workshops.level_4_a") %>
+						<br><%= t("workshops.level_4_b") %>
 
 					</p>
 				</div>
