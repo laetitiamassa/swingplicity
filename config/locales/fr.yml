@@ -107,6 +107,7 @@
     sunday_5_bis: "Workshop WCS"
     sunday_6: "Soirée 100% WCS"
     levels_presentation: "Si vous avez un doute sur le niveau qui vous correspond, n’hésitez pas à nous contacter."
+    levels_presentation_2: "Les organisateurs se réservent le droit de rediriger les danseurs vers un niveau plus adapté lors de leur inscription s’ils pensent que cela améliorera l’apprentissage de tous les participants. Les professeurs auront toute latitude pour faire de même durant l'événement."
     level_1_a: "Vous avez commencé le WCS en Septembre, vous avez des bases solides et vous en voulez déjà plus?"
     level_1_b: "Ce niveau est fait spécialement pour vous."
     level_2_a: "Vous connaissez les figures de bases du West Coast Swing et chercher à développer votre vocabulaire avec de nouveaux enchainements. Vous commencez à être à l’aise en danse sociale sur la plupart des rythmes."
@@ -114,7 +115,7 @@
     level_3_a: "Vous êtes un accro du West Coast Swing. Vous en voulez toujours plus ! Vous avez déjà suivi quelques stages et vous écumez les soirées et allez danser dès que vous pouvez. Vous êtes à l’aise sur tous les rythmes. Vous cherchez à perfectionner votre technique pour avoir les outils qui vous feront progresser encore plus."
     level_3_b: "Pour ce niveau, il est recommandé d’avoir suivi deux années de cours réguliers et d’avoir déjà suivi quelques stages."
     level_4_a: "Vous avez atteint un niveau qui vous permet d’être à l’écoute de la musique et de votre partenaire. Vous commencez à créer vos propres mouvements et enchainements et cherchez à acquérir des outils qui vous permettront d’améliorer votre danse, votre partenariat, votre créativité."
-    level_4_b: "Ce niveau est par exemple adapté (mais pas limité) à des danseurs qui ont déjà obtenu des points en compétition. Pour ce niveau, les organisateurs se réservent le droit de rediriger les danseurs vers un niveau plus adapté lors de leur inscription s’ils pensent que cela améliorera l’apprentissage de tous les participants. Les professeurs auront toute latitude pour faire de même."
+    level_4_b: "Ce niveau est par exemple adapté (mais pas limité) à des danseurs qui ont déjà obtenu des points en compétition."
     level_5_a: "Réservé aux danseurs qui ont des points en catégorie Intermédiaire ou Avancé."
     level_5_b: ""
   hotel:
