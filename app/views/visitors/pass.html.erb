@@ -16,16 +16,16 @@
 
   	<ul class="nav nav-pills text-center" role="tablist">
 
-    <li role="presentation" <% if Time.now < "2017-08-19 00:00:00 +0200" %>class="active"<% end %>>
+    <li role="presentation" <% if Time.now < "2018-09-16 00:00:00 +0200" %>class="active"<% end %>>
       <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Super Early Bird<br><small><%= t("pass.til_31_july") %></small></a>
     </li>
-    <li role="presentation" <% if Time.now > "2017-08-19 00:00:00 +0200" and Time.now < "2017-11-01 00:00:00 +0200" %>class="active"<% end %>>
+    <li role="presentation" <% if Time.now > "2018-09-16 00:00:00 +0200" and Time.now < "2018-11-01 00:00:00 +0200" %>class="active"<% end %>>
       <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Early Bird<br><small><%= t("pass.til_31_oct") %></small></a>
     </li>
-    <li role="presentation" <% if Time.now > "2017-11-01 00:00:00 +0200" and Time.now < "2018-01-01 00:00:00 +0200" %>class="active"<% end %>>
+    <li role="presentation" <% if Time.now > "2018-11-01 00:00:00 +0200" and Time.now < "2019-01-01 00:00:00 +0200" %>class="active"<% end %>>
 		<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lazy Bird<br><small><%= t("pass.til_31_dec") %></small></a>
 	</li>
-    <li role="presentation" <% if Time.now > "2018-01-01 00:00:00 +0200" %>class="active"<% end %>>
+    <li role="presentation" <% if Time.now > "2019-01-01 00:00:00 +0200" %>class="active"<% end %>>
 		<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Later Bird<br><small><%= t("pass.after_31_dec") %></small></a>
 	</li>
   </ul>
@@ -35,16 +35,16 @@
   <!-- Tab panes -->
   <div class="tab-content">
 
-  <div role="tabpanel" class="tab-pane <% if Time.now < "2017-08-19 00:00:00 +0200" %>active<% end %>" id="home">
+  <div role="tabpanel" class="tab-pane <% if Time.now < "2018-09-16 00:00:00 +0200" %>active<% end %>" id="home">
       <%= render "super_early_bird" %>
     </div>
-  <div role="tabpanel" class="tab-pane <% if Time.now > "2017-08-19 00:00:00 +0200" and Time.now < "2017-11-01 00:00:00 +0200" %>active<% end %>" id="profile">
+  <div role="tabpanel" class="tab-pane <% if Time.now > "2018-09-16 00:00:00 +0200" and Time.now < "2018-11-01 00:00:00 +0200" %>active<% end %>" id="profile">
       <%= render "early_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane <% if Time.now > "2017-11-01 00:00:00 +0200" and Time.now < "2018-01-01 00:00:00 +0200" %>active<% end %>" id="messages">
+    <div role="tabpanel" class="tab-pane <% if Time.now > "2018-11-01 00:00:00 +0200" and Time.now < "2019-01-01 00:00:00 +0200" %>active<% end %>" id="messages">
       <%= render "lazy_bird" %>
     </div>
-    <div role="tabpanel" class="tab-pane <% if Time.now > "2018-01-01 00:00:00 +0200" %>active<% end %>" id="settings">
+    <div role="tabpanel" class="tab-pane <% if Time.now > "2019-01-01 00:00:00 +0200" %>active<% end %>" id="settings">
       <%= render "later_bird" %>
     </div>
   </div>
